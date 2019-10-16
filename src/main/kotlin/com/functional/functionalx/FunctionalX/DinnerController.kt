@@ -10,4 +10,9 @@ class DinnerController {
     fun prepareFood() {
 
     }
+
+    @GetMapping("/eat-food")
+    fun eatFood() {
+
+    }
 }
